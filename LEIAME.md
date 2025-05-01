@@ -306,7 +306,7 @@ pip install -r requisitos.txt
 ### 3. Rode a aplicação Streamlit:
 
 ```bash
-streamlit run /interface/scripts/dashboard/app_evasao.py
+streamlit run scripts/dashboard/app_evasao.py
 ```
 
 ---

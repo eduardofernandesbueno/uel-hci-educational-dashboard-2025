@@ -2,10 +2,8 @@
 # Dados e arquivos sensíveis
 # ============================
 # Evite versionar dados brutos, intermediários, processados, e arquivos externos
-dados/
 dados/bruto/
 dados/intermediario/
-dados/processado/
 dados/externo/
 dados/bruto/INEP_*/
 
@@ -31,7 +29,6 @@ log_erros.txt
 # Se você precisa versionar documentos ou CSVs importantes, remova ou crie exceções.
 *.txt
 # Ignorar arquivos CSV por padrão, exceto os usados pelo app
-*.csv
 !dados/processado/dados_ingresso_evasao_conclusao.csv
 !dados/processado/dados_gerais_por_curso.csv
 !dados/processado/dados_por_regiao.csv
@@ -43,8 +40,8 @@ log_erros.txt
 .venv/
 .env/
 env/
-informacao/ambiente/ambiente.yml
-informacao/ambiente/requisitos.txt
+interface/ambiente/ambiente.yml
+interface/ambiente/requisitos.txt
 
 # ============================
 # Notebooks e checkpoints
